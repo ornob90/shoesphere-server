@@ -11,6 +11,7 @@ const globalErrorHandler = require("./utils/globalErrorHandler");
 const userRoutes = require("./routes/user");
 const productRoutes = require("./routes/product");
 const favoriteRoutes = require("./routes/favorite");
+const brandRoutes = require("./routes/brand");
 
 // utils
 const connectDB = require("./db/connectDB");
@@ -27,6 +28,7 @@ app.use(express.json());
 app.use(userRoutes);
 app.use(productRoutes);
 app.use(favoriteRoutes);
+app.use(brandRoutes);
 
 const port = process.env.PORT || 5000;
 
