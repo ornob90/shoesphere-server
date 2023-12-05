@@ -10,6 +10,7 @@ const globalErrorHandler = require("./utils/globalErrorHandler");
 // routes
 const userRoutes = require("./routes/user");
 const productRoutes = require("./routes/product");
+const favoriteRoutes = require("./routes/favorite");
 
 // utils
 const connectDB = require("./db/connectDB");
@@ -25,6 +26,7 @@ app.use(express.json());
 
 app.use(userRoutes);
 app.use(productRoutes);
+app.use(favoriteRoutes);
 
 const port = process.env.PORT || 5000;
 
