@@ -1,5 +1,5 @@
 const addToCart = require("../../api/cart/addToCart");
-const deleteSingleCart = require("../../api/cart/deleteSingleCart");
+const deleteFromCart = require("../../api/cart/deleteFromCart");
 const getCartByUser = require("../../api/cart/getCartByUser");
 
 const router = require("express").Router();
@@ -11,6 +11,6 @@ router.get("/carts/:id", getCartByUser);
 router.post("/cart", addToCart);
 
 // DELETE
-router.delete("/carts/:id", deleteSingleCart);
+router.delete("/carts", deleteFromCart);
 
 module.exports = router;
