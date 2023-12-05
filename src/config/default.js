@@ -6,3 +6,10 @@ const config = {
 };
 
 module.exports = Object.freeze(config);
+
+// try {
+
+// } catch (error) {
+//   console.log(error.message);
+//   next(error);
+// }

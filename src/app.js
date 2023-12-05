@@ -9,6 +9,9 @@ const globalErrorHandler = require("./utils/globalErrorHandler");
 
 // routes
 const userRoutes = require("./routes/user");
+const productRoutes = require("./routes/product");
+
+// utils
 const connectDB = require("./db/connectDB");
 
 const app = express();
@@ -21,6 +24,7 @@ app.use(express.json());
 // );
 
 app.use(userRoutes);
+app.use(productRoutes);
 
 const port = process.env.PORT || 5000;
 
