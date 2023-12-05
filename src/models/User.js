@@ -17,21 +17,27 @@ const userSchema = new mongoose.Schema({
   },
   country: {
     type: String,
+    default: "",
   },
   city: {
     type: String,
+    default: "",
   },
   region: {
     type: String,
+    default: "",
   },
   address: {
     type: String,
+    default: "",
   },
   phone: {
     type: String,
+    default: "",
   },
   zipCode: {
     type: Number,
+    default: "",
   },
 });
 
