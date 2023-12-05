@@ -8,15 +8,19 @@ require("dotenv").config();
 const globalErrorHandler = require("./utils/globalErrorHandler");
 
 // routes
+const userRoutes = require("./routes/user");
+const connectDB = require("./db/connectDB");
 
 const app = express();
+app.use(express.json());
+// app.use(
+//   cors({
+//     origin: [process.env.LOCAL_CLIENT],
+//     credentials: true,
+//   })
+// );
 
-app.use(
-  cors({
-    origin: [process.env.LOCAL_CLIENT],
-    credentials: true,
-  })
-);
+app.use(userRoutes);
 
 const port = process.env.PORT || 5000;
 
@@ -32,16 +36,16 @@ app.all("*", (req, res, next) => {
 });
 
 // error handling middleware
-// app.use(globalErrorHandler);
+app.use(globalErrorHandler);
 
-// const main = async () => {
-//   await connectDB();
-//   // sendEMail();
-//   app.listen(port, () => {
-//     console.log("Server running...");
-//   });
-// };
+const main = async () => {
+  await connectDB();
+  // sendEMail();
+  app.listen(port, () => {
+    console.log("Server running...");
+  });
+};
 
-// main();
+main();
 
-module.exports = app;
+// module.exports = app;

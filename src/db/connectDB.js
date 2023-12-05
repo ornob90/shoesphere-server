@@ -6,7 +6,7 @@ const getConnectionString = () => {
   let connectionUrl;
 
   connectionUrl = process.env.DATABASE_LOCAL;
-  console.log(connectionUrl);
+  // console.log(connectionUrl);
   connectionUrl = connectionUrl.replace("<username>", process.env.DB_USER);
 
   connectionUrl = connectionUrl.replace("<password>", process.env.DB_PASS);
