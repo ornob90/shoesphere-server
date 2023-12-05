@@ -7,20 +7,10 @@ const addProduct = async (req, res, next) => {
 
     const product = new Product(data);
 
-    const brand = {
-      name: product.brand,
-      logo: product.brandLogo,
-    };
-
-    const response = await Brand.updateOne({ name: brand.name }, brand, {
-      upsert: true,
-    });
-
     await product.save();
 
     res.send({
       insertOne: true,
-      newBrand: response.modifiedCount > 0,
     });
   } catch (error) {
     console.log(error.message);

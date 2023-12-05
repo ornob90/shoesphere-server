@@ -6,11 +6,8 @@ const productSchema = new mongoose.Schema({
     required: true,
   },
   brand: {
-    type: String,
-    required: true,
-  },
-  brandLogo: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Brand",
     required: true,
   },
   gender: {
