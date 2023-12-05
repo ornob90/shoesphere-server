@@ -61,6 +61,10 @@ const productSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  addedDate: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
 // Auto-calculate sellPrice before saving
