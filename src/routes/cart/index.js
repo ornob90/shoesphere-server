@@ -1,4 +1,5 @@
 const addToCart = require("../../api/cart/addToCart");
+const deleteSingleCart = require("../../api/cart/deleteSingleCart");
 const getCartByUser = require("../../api/cart/getCartByUser");
 
 const router = require("express").Router();
@@ -8,5 +9,8 @@ router.get("/carts/:id", getCartByUser);
 
 // POST
 router.post("/cart", addToCart);
+
+// DELETE
+router.delete("/carts/:id", deleteSingleCart);
 
 module.exports = router;
