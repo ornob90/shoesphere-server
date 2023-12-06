@@ -13,6 +13,7 @@ const productRoutes = require("./routes/product");
 const favoriteRoutes = require("./routes/favorite");
 const brandRoutes = require("./routes/brand");
 const cartRoutes = require("./routes/cart");
+const orderRoutes = require("./routes/order");
 
 // utils
 const connectDB = require("./db/connectDB");
@@ -31,6 +32,7 @@ app.use(productRoutes);
 app.use(favoriteRoutes);
 app.use(brandRoutes);
 app.use(cartRoutes);
+app.use(orderRoutes);
 
 const port = process.env.PORT || 5000;
 
