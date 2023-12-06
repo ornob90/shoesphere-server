@@ -11,7 +11,7 @@ const updateOrderStatus = async (req, res, next) => {
 
     const response = await Order.updateOne(
       { _id: new ObjectId(id) },
-      { status: "complete" }
+      { $set: { status: "complete" } }
     );
 
     res.send({

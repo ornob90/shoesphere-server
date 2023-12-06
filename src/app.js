@@ -20,12 +20,12 @@ const connectDB = require("./db/connectDB");
 
 const app = express();
 app.use(express.json());
-// app.use(
-//   cors({
-//     origin: [process.env.LOCAL_CLIENT],
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: [process.env.LOCAL_CLIENT],
+    credentials: true,
+  })
+);
 
 app.use(userRoutes);
 app.use(productRoutes);

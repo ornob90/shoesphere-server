@@ -2,9 +2,10 @@ const Product = require("../../models/Product");
 
 const getProductFilter = async (req, res, next) => {
   try {
-    const { page, size, ...restQuery } = req.query || {};
+    const { page, size, ...filterOptions } = req.query || {};
 
-    const products = await Product.find(restQuery)
+    const products = await Product.find({})
+      .select("name price images")
       .skip(page * size)
       .limit(size);
 

@@ -5,7 +5,7 @@ const getSingleUser = async (req, res, next) => {
   try {
     const { email } = req.params;
 
-    const user = (await User.findOne({ email })) || {};
+    const user = await User.findOne({ email });
 
     res.send(user);
   } catch (error) {
