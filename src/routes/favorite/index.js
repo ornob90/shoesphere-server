@@ -9,4 +9,7 @@ router.get("/favorites", getFavoritesByUser);
 // POST
 router.post("/favorite", addFavorite);
 
+// DELETE
+
+
 module.exports = router;

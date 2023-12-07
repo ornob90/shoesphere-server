@@ -3,9 +3,9 @@ const Cart = require("../../models/Cart");
 
 const deleteFromCart = async (req, res, next) => {
   try {
-    const { ids } = req.body;
+    const ids = req.body;
 
-    const objectIds = ids.map((id) => new ObjectId(id));
+    const objectIds = ids?.map((id) => new ObjectId(id)) || [];
 
     const response = await Cart.deleteMany({ _id: { $in: objectIds } });
     // console.log(response);
