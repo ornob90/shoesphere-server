@@ -61,6 +61,9 @@ const productSchema = new mongoose.Schema({
   rating: {
     type: Number,
   },
+  sellCount: {
+    type: Number,
+  },
   addedDate: {
     type: Date,
     default: Date.now,

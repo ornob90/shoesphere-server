@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const Cart = require("../../models/Cart");
+const Cart = require("../../models/cart");
 
 const updateCartProduct = async (productID) => {
   try {

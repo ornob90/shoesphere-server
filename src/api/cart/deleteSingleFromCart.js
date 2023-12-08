@@ -1,10 +1,10 @@
 const { ObjectId } = require("mongodb");
-const Cart = require("../../models/Cart");
+const Cart = require("../../models/cart");
 
 const deleteSingleFromCart = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const response = await Cart.deleteOne({ id: new ObjectId(id) });
+    const response = await Cart.deleteOne({ _id: new ObjectId(id) });
 
     res.send({
       status: response.acknowledged,
