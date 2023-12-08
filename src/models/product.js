@@ -63,6 +63,7 @@ const productSchema = new mongoose.Schema({
   },
   sellCount: {
     type: Number,
+    default: 0,
   },
   addedDate: {
     type: Date,

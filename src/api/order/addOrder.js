@@ -1,15 +1,22 @@
+const getCartProduct = require("../../lib/cart/getCartProducts");
 const Order = require("../../models/order");
 
 const addOrder = async (req, res, next) => {
   try {
-    const data = req.body;
-    const order = new Order(data);
+    const { id: userID } = req.params;
+    const { transactionID } = req.body;
 
-    await order.save();
+    if (!transactionID) {
+      res.status(400).send({ message: "BAD REQUEST! Transaction ID required" });
+    }
 
-    res.send({
-      insertOne: true,
-    });
+    const cartProducts = await getCartProduct(userID);
+
+    // const order = new Order(data);
+
+    // await order.save();
+
+    res.send(cartProducts);
   } catch (error) {
     console.log(error.message);
     next(error);

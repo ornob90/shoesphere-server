@@ -8,7 +8,7 @@ const router = require("express").Router();
 router.get("/orders/:id", getOrdersByUser);
 
 // POST
-router.post("/order", addOrder);
+router.post("/order/:id", addOrder);
 
 // PATCH
 router.patch("/order/:id", updateOrderStatus);

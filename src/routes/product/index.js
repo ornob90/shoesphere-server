@@ -17,4 +17,6 @@ router.get("/product-count", getTotalProductCount);
 // POST
 router.post("/product", addProduct);
 
+// PUT
+
 module.exports = router;
