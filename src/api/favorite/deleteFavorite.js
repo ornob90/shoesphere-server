@@ -3,9 +3,12 @@ const Favorite = require("../../models/favorite");
 
 const deleteFavorite = async (req, res, next) => {
   try {
-    const { id } = req.params;
+    const { email, productID } = req.query;
 
-    const response = await Favorite.deleteOne({ _id: new ObjectId(id) });
+    const response = await Favorite.deleteOne({
+      product: new ObjectId(productID),
+      userEmail: email,
+    });
 
     res.send({
       status: response.acknowledged,

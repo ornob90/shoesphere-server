@@ -1,7 +1,7 @@
 const { ObjectId } = require("mongodb");
 const Product = require("../../models/Product");
 
-const increaseProductSellCount = async (productID) => {
+const increaseProductSellCount = async (productID, quantity) => {
   try {
     const product = await Product.findOne({ _id: new ObjectId(productID) });
 
@@ -9,7 +9,7 @@ const increaseProductSellCount = async (productID) => {
       { _id: new ObjectId(productID) },
       {
         $set: {
-          sellCount: product.sellCount + 1,
+          sellCount: product.sellCount + quantity,
         },
       }
     );

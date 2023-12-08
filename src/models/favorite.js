@@ -8,13 +8,10 @@ const favoriteSchema = new mongoose.Schema({
   },
   userName: {
     type: String,
-    required: true,
-    unique: true,
   },
   userEmail: {
     type: String,
     required: true,
-    unique: true,
   },
 });
 
