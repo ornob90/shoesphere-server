@@ -6,8 +6,7 @@ const productSchema = new mongoose.Schema({
     required: true,
   },
   brand: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Brand",
+    type: String,
     required: true,
   },
   gender: {

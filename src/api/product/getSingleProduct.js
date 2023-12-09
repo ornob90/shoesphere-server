@@ -5,9 +5,7 @@ const getSingleProduct = async (req, res, next) => {
   try {
     const { id } = req.params;
 
-    const product =
-      (await Product.findOne({ _id: new ObjectId(id) }).populate("brand")) ||
-      {};
+    const product = await Product.findOne({ _id: new ObjectId(id) });
 
     res.send(product);
   } catch (error) {
