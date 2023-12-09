@@ -23,11 +23,11 @@ const getProductFilter = async (req, res, next) => {
       // console.log(rest.brand.map((brand) => new ObjectId(brand)));
       const brands = rest.brand.map((brand) => new ObjectId(brand));
 
-      filterObject.brand = {
-        // $in: rest.brand.map((brand) => new ObjectId(brand)),
-        // $in: rest.brand.map((brand) => new ObjectId(brand)),
-        $in: rest.brand,
-      };
+      // filterObject.brand = {
+      //   // $in: rest.brand.map((brand) => new ObjectId(brand)),
+      //   // $in: rest.brand.map((brand) => new ObjectId(brand)),
+      //   $in: rest.brand,
+      // };
     }
 
     if (Array.isArray(rest.available) && rest.available.length > 0) {

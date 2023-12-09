@@ -1,7 +1,7 @@
 [
   {
     "name": "Air Force 1",
-    "brand": "6570621ebf001daafd908fb1",
+    "brand": "Nike",
     "gender": "Men",
     "price": 120,
     "available": true,
@@ -21,7 +21,7 @@
   },
   {
     "name": "Air Max 90",
-    "brand": "6570621ebf001daafd908fb1",
+    "brand": "Nike",
     "gender": "Men",
     "price": 150,
     "available": false,
@@ -42,7 +42,7 @@
   },
   {
     "name": "Nano X1",
-    "brand": "6570621ebf001daafd908fb4",
+    "brand": "Reebok",
     "gender": "Men",
     "price": 120,
     "available": true,
@@ -63,7 +63,7 @@
   },
   {
     "name": "Roshe Run",
-    "brand": "6570621ebf001daafd908fb1",
+    "brand": "Nike",
     "gender": "Women",
     "price": 100,
     "available": true,
@@ -84,7 +84,7 @@
   },
   {
     "name": "Air Max Thea",
-    "brand": "6570621ebf001daafd908fb1",
+    "brand": "Nike",
     "gender": "Women",
     "price": 130,
     "available": true,
@@ -106,7 +106,7 @@
 
   {
     "name": "Ultraboost 22",
-    "brand": "6570621ebf001daafd908fb2",
+    "brand": "Adidas",
     "gender": "Men",
     "price": 180,
     "available": true,
@@ -127,7 +127,7 @@
   },
   {
     "name": "Ozelia",
-    "brand": "6570621ebf001daafd908fb2",
+    "brand": "Adidas",
     "gender": "Men",
     "price": 140,
     "available": true,
@@ -149,7 +149,7 @@
   },
   {
     "name": "Ultraboost 22",
-    "brand": "6570621ebf001daafd908fb2",
+    "brand": "Adidas",
     "gender": "Women",
     "price": 160,
     "available": true,
@@ -170,7 +170,7 @@
   },
   {
     "name": "Supernova",
-    "brand": "6570621ebf001daafd908fb2",
+    "brand": "Adidas",
     "gender": "Women",
     "price": 130,
     "available": true,
@@ -191,7 +191,7 @@
   },
   {
     "name": "Cloudfoam Pure 2.0",
-    "brand": "6570621ebf001daafd908fb2",
+    "brand": "Adidas",
     "gender": "Women",
     "price": 90,
     "available": true,
@@ -212,7 +212,7 @@
   },
   {
     "name": "Future Rider",
-    "brand": "6570621ebf001daafd908fb3",
+    "brand": "Puma",
     "gender": "Men",
     "price": 140,
     "available": true,
@@ -233,7 +233,7 @@
   },
   {
     "name": "Carina Sneaker",
-    "brand": "6570621ebf001daafd908fb3",
+    "brand": "Puma",
     "gender": "Men",
     "price": 120,
     "available": true,
@@ -254,7 +254,7 @@
   },
   {
     "name": "Trc Blaze Court",
-    "brand": "6570621ebf001daafd908fb3",
+    "brand": "Puma",
     "gender": "Men",
     "price": 90,
     "available": true,
@@ -275,7 +275,7 @@
   },
   {
     "name": "Future Flash",
-    "brand": "6570621ebf001daafd908fb3",
+    "brand": "Puma",
     "gender": "Men",
     "price": 160,
     "available": true,
@@ -296,7 +296,7 @@
   },
   {
     "name": "Cali Dream",
-    "brand": "6570621ebf001daafd908fb3",
+    "brand": "Puma",
     "gender": "Women",
     "price": 100,
     "available": true,
@@ -317,7 +317,7 @@
   },
   {
     "name": "Classic Leather",
-    "brand": "6570621ebf001daafd908fb4",
+    "brand": "Reebok",
     "gender": "Men",
     "price": 80,
     "available": true,
@@ -338,7 +338,7 @@
   },
   {
     "name": "Air Jordan 1",
-    "brand": "6570621ebf001daafd908fb1",
+    "brand": "Nike",
     "gender": "Men",
     "price": 180,
     "available": true,
@@ -360,7 +360,7 @@
 
   {
     "name": "Club C 85",
-    "brand": "6570621ebf001daafd908fb4",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 90,
     "available": true,
@@ -381,7 +381,7 @@
   },
   {
     "name": "Floatride Energy",
-    "brand": "6570621ebf001daafd908fb4",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 110,
     "available": true,
@@ -402,7 +402,7 @@
   },
   {
     "name": "Freestyle Hi",
-    "brand": "6570621ebf001daafd908fb4",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 95,
     "available": true,
@@ -423,7 +423,7 @@
   },
   {
     "name": "Chuck Taylor All Star",
-    "brand": "6570621ebf001daafd908fb5",
+    "brand": "Converse",
     "gender": "Men",
     "price": 65,
     "available": true,
@@ -444,7 +444,7 @@
   },
   {
     "name": "Jack Purcell Signature",
-    "brand": "6570621ebf001daafd908fb5",
+    "brand": "Vans",
     "gender": "Men",
     "price": 80,
     "available": true,
@@ -465,7 +465,7 @@
   },
   {
     "name": "One Star Pro",
-    "brand": "6570621ebf001daafd908fb5",
+    "brand": "Vans",
     "gender": "Men",
     "price": 75,
     "available": true,
@@ -486,7 +486,7 @@
   },
   {
     "name": "Chuck Taylor All Star Lift",
-    "brand": "6570621ebf001daafd908fb5",
+    "brand": "Vans",
     "gender": "Women",
     "price": 70,
     "available": true,
@@ -507,7 +507,7 @@
   },
   {
     "name": "Chuck 70",
-    "brand": "6570621ebf001daafd908fb5",
+    "brand": "Vans",
     "gender": "Women",
     "price": 90,
     "available": true,
@@ -528,7 +528,7 @@
   },
   {
     "name": "Old Skool",
-    "brand": "6570621ebf001daafd908fb6",
+    "brand": "Skechers",
     "gender": "Men",
     "price": 75,
     "available": true,
@@ -549,7 +549,7 @@
   },
   {
     "name": "Sk8-Hi",
-    "brand": "6570621ebf001daafd908fb6",
+    "brand": "Skechers",
     "gender": "Men",
     "price": 85,
     "available": true,
@@ -570,7 +570,7 @@
   },
   {
     "name": "Authentic",
-    "brand": "6570621ebf001daafd908fb6",
+    "brand": "Skechers",
     "gender": "Women",
     "price": 60,
     "available": true,
@@ -591,7 +591,7 @@
   },
   {
     "name": "Slip-On",
-    "brand": "6570621ebf001daafd908fb6",
+    "brand": "Skechers",
     "gender": "Women",
     "price": 70,
     "available": true,
@@ -612,7 +612,7 @@
   },
   {
     "name": "UltraRange",
-    "brand": "6570621ebf001daafd908fb6",
+    "brand": "Skechers",
     "gender": "Women",
     "price": 95,
     "available": true,
@@ -633,7 +633,7 @@
   },
   {
     "name": "Skech-Air Element 2.0",
-    "brand": "6570621ebf001daafd908fb7",
+    "brand": "Fila",
     "gender": "Men",
     "price": 90,
     "available": true,
@@ -654,7 +654,7 @@
   },
   {
     "name": "Go Walk Max",
-    "brand": "6570621ebf001daafd908fb7",
+    "brand": "Fila",
     "gender": "Men",
     "price": 75,
     "available": true,
@@ -675,7 +675,7 @@
   },
   {
     "name": "D'Lites",
-    "brand": "6570621ebf001daafd908fb7",
+    "brand": "Fila",
     "gender": "Men",
     "price": 80,
     "available": true,
@@ -696,7 +696,7 @@
   },
   {
     "name": "Bobs Plush",
-    "brand": "6570621ebf001daafd908fb7",
+    "brand": "Fila",
     "gender": "Women",
     "price": 55,
     "available": true,
@@ -717,7 +717,7 @@
   },
   {
     "name": "Skech-Flex 3.0",
-    "brand": "6570621ebf001daafd908fb7",
+    "brand": "Fila",
     "gender": "Women",
     "price": 70,
     "available": true,
@@ -738,7 +738,7 @@
   },
   {
     "name": "Disruptor II",
-    "brand": "6570621ebf001daafd908fb8",
+    "brand": "Clarks",
     "gender": "Men",
     "price": 85,
     "available": true,
@@ -759,7 +759,7 @@
   },
   {
     "name": "Ray Tracer",
-    "brand": "6570621ebf001daafd908fb8",
+    "brand": "Clarks",
     "gender": "Women",
     "price": 75,
     "available": true,
@@ -780,7 +780,7 @@
   },
   {
     "name": "D-Formation",
-    "brand": "6570621ebf001daafd908fb8",
+    "brand": "Clarks",
     "gender": "Women",
     "price": 90,
     "available": true,
@@ -801,7 +801,7 @@
   },
   {
     "name": "Overpass",
-    "brand": "6570621ebf001daafd908fb8",
+    "brand": "Clarks",
     "gender": "Women",
     "price": 80,
     "available": true,
@@ -822,7 +822,7 @@
   },
   {
     "name": "Mindblower",
-    "brand": "6570621ebf001daafd908fb8",
+    "brand": "Clarks",
     "gender": "Women",
     "price": 95,
     "available": true,
@@ -844,7 +844,7 @@
 
   {
     "name": "Desert Boot",
-    "brand": "6570621ebf001daafd908fb9",
+    "brand": "Timberland",
     "gender": "Men",
     "price": 130,
     "available": true,
@@ -865,7 +865,7 @@
   },
   {
     "name": "Cotrell Lane",
-    "brand": "6570621ebf001daafd908fb9",
+    "brand": "Timberland",
     "gender": "Men",
     "price": 90,
     "available": true,
@@ -886,7 +886,7 @@
   },
   {
     "name": "Tri Active Knit",
-    "brand": "6570621ebf001daafd908fb9",
+    "brand": "Timberland",
     "gender": "Men",
     "price": 110,
     "available": true,
@@ -907,7 +907,7 @@
   },
   {
     "name": "Orabella Rose",
-    "brand": "6570621ebf001daafd908fb9",
+    "brand": "Timberland",
     "gender": "Women",
     "price": 95,
     "available": true,
@@ -928,7 +928,7 @@
   },
   {
     "name": "Tri Clara",
-    "brand": "6570621ebf001daafd908fb9",
+    "brand": "Timberland",
     "gender": "Women",
     "price": 120,
     "available": true,
@@ -949,7 +949,7 @@
   },
   {
     "name": "6-Inch Premium Boot",
-    "brand": "6570621ebf001daafd908fba",
+    "brand": "ASICS",
     "gender": "Men",
     "price": 190,
     "available": true,
@@ -970,7 +970,7 @@
   },
   {
     "name": "Killington Chukka",
-    "brand": "6570621ebf001daafd908fba",
+    "brand": "ASICS",
     "gender": "Men",
     "price": 130,
     "available": true,
@@ -991,7 +991,7 @@
   },
   {
     "name": "Bradstreet Plain Toe Oxford",
-    "brand": "6570621ebf001daafd908fba",
+    "brand": "ASICS",
     "gender": "Men",
     "price": 110,
     "available": true,
@@ -1012,7 +1012,7 @@
   },
   {
     "name": "Euro Hiker",
-    "brand": "6570621ebf001daafd908fba",
+    "brand": "ASICS",
     "gender": "Men",
     "price": 150,
     "available": true,
@@ -1033,7 +1033,7 @@
   },
   {
     "name": "Courmayeur Valley Chelsea Boot",
-    "brand": "6570621ebf001daafd908fba",
+    "brand": "ASICS",
     "gender": "Women",
     "price": 160,
     "available": true,
@@ -1054,7 +1054,7 @@
   },
   {
     "name": "GEL-Kayano 28",
-    "brand": "6570621ebf001daafd908fbb",
+    "brand": "New Balance",
     "gender": "Men",
     "price": 160,
     "available": true,
@@ -1075,7 +1075,7 @@
   },
   {
     "name": "GT-2000 10",
-    "brand": "6570621ebf001daafd908fbb",
+    "brand": "New Balance",
     "gender": "Men",
     "price": 120,
     "available": true,
@@ -1096,7 +1096,7 @@
   },
   {
     "name": "GEL-Nimbus 24",
-    "brand": "6570621ebf001daafd908fbb",
+    "brand": "New Balance",
     "gender": "Women",
     "price": 150,
     "available": true,
@@ -1117,7 +1117,7 @@
   },
   {
     "name": "GT-1000 9",
-    "brand": "6570621ebf001daafd908fbb",
+    "brand": "New Balance",
     "gender": "Women",
     "price": 100,
     "available": true,
@@ -1138,7 +1138,7 @@
   },
   {
     "name": "GEL-Contend 7",
-    "brand": "6570621ebf001daafd908fbb",
+    "brand": "New Balance",
     "gender": "Women",
     "price": 80,
     "available": true,
@@ -1159,7 +1159,7 @@
   },
   {
     "name": "Fresh Foam 1080v11",
-    "brand": "6570621ebf001daafd908fbc",
+    "brand": "Reebok",
     "gender": "Men",
     "price": 150,
     "available": true,
@@ -1180,7 +1180,7 @@
   },
   {
     "name": "860v11",
-    "brand": "6570621ebf001daafd908fbc",
+    "brand": "Reebok",
     "gender": "Men",
     "price": 120,
     "available": true,
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "Fresh Foam 1080v11",
-    "brand": "6570621ebf001daafd908fbc",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 140,
     "available": true,
@@ -1222,7 +1222,7 @@
   },
   {
     "name": "880v11",
-    "brand": "6570621ebf001daafd908fbc",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 110,
     "available": true,
@@ -1243,7 +1243,7 @@
   },
   {
     "name": "Fresh Foam X 70s",
-    "brand": "6570621ebf001daafd908fbc",
+    "brand": "Reebok",
     "gender": "Women",
     "price": 90,
     "available": true,

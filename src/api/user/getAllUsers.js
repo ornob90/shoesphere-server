@@ -1,3 +1,4 @@
+const Product = require("../../models/Product");
 const User = require("../../models/User");
 
 const getAllUsers = async (req, res, next) => {

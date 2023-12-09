@@ -5,7 +5,7 @@ const getNewArrivals = async (req, res, next) => {
     const { size } = req.query || { size: 10 };
     const products = await Product.find({})
       .sort({ addedDate: 1 })
-      .limit(size)
+      .limit(+size)
       .select("images name");
 
     res.send(products);

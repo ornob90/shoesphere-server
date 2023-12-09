@@ -10,7 +10,7 @@ const router = require("express").Router();
 // GET
 router.get("/new-arrivals", getNewArrivals);
 router.get("/product/:id", getSingleProduct);
-router.get("suggested-product", getSuggestProduct);
+router.get("/suggested-product", getSuggestProduct);
 router.get("/product-count", getTotalProductCount);
 
 // POST

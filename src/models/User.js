@@ -16,6 +16,9 @@ const userSchema = new mongoose.Schema({
     required: true,
     default: "",
   },
+  gender: {
+    type: String,
+  },
   email: {
     type: String,
     required: true,
