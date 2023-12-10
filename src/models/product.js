@@ -53,10 +53,7 @@ const productSchema = new mongoose.Schema({
     min: 0,
     max: 100,
   },
-  sellPrice: {
-    type: Number,
-    required: true,
-  },
+
   rating: {
     type: Number,
   },
@@ -71,11 +68,11 @@ const productSchema = new mongoose.Schema({
 });
 
 // Auto-calculate sellPrice before saving
-productSchema.pre("save", function (next) {
-  this.sellPrice =
-    this.buyingCost + (this.buyingCost * this.profitPercentage) / 100;
-  next();
-});
+// productSchema.pre("save", function (next) {
+//   this.price =
+//     this.buyingCost + (this.buyingCost * this.profitPercentage) / 100;
+//   next();
+// });
 
 const Product = mongoose.model("Product", productSchema);
 
