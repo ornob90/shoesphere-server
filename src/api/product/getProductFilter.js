@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const Product = require("../../models/Product");
+const Product = require("../../models/product");
 
 const getProductFilter = async (req, res, next) => {
   try {

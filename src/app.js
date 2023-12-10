@@ -24,7 +24,11 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: [process.env.LOCAL_CLIENT],
+    origin: [
+      process.env.LOCAL_CLIENT,
+      process.env.CLIENT_MAIN,
+      process.env.CLIENT_SECONDARY,
+    ],
     credentials: true,
   })
 );
@@ -54,14 +58,14 @@ app.all("*", (req, res, next) => {
 // error handling middleware
 app.use(globalErrorHandler);
 
-const main = async () => {
-  await connectDB();
-  // sendEMail();
-  app.listen(port, () => {
-    console.log("Server running...");
-  });
-};
+// const main = async () => {
+//   await connectDB();
+//   // sendEMail();
+//   app.listen(port, () => {
+//     console.log("Server running...");
+//   });
+// };
 
-main();
+// main();
 
-// module.exports = app;
+module.exports = app;

@@ -1,5 +1,5 @@
 const { ObjectId } = require("mongodb");
-const Product = require("../../models/Product");
+const Product = require("../../models/product");
 
 const increaseProductSellCount = async (productID, quantity) => {
   try {
